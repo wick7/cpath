@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Scrolling Nav - Start Bootstrap Template</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/app.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/scrolling-nav.css" rel="stylesheet">
+ 
+    <!-- Custom CSS -->
+    <script href="js/app.js" ></script>
+    <script href="js/bootsrap.min.js" ></script>
+    <script href="js/jquery.js" ></script>
+    <script href="js/scrolling-nav.js" ></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Shrikhand" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Jaldi|Shrikhand" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">CP</a>
+            </div>
+
+             <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a class="page-scroll" href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">Volunteer</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#services">Organizations</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Merchants</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contacttwo">More Info</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav> 
+
+    <!-- Intro Section -->
+    <section id="intro" class="intro-section">
+        <div class="intro_container">
+            <div class="intro_row">
+                <div class="intro_col-lg-12">
+                    <h1>Carrot Path</h1>
+                    <a class="btn btn-default page-scroll" href="#about"></a>
+<!--                     <img class= "logo" src="node_modules/bootstrap-sass/assets/images/down.png"></img>
+ -->                    <video poster="long.jpg" autoplay="true" loop>
+                        <source src="https://s3.amazonaws.com/distill-videos/videos/processed/34/BetweenTwoTrees-HD.mp4.webm" type="video/webm">
+                        <source src="https://s3.amazonaws.com/distill-videos/videos/processed/34/BetweenTwoTrees-HD.mp4-mobile.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Volunteer</h1>
+                    <a class="btn btn-default page-scroll" href="#services"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Organizations</h1>
+                    <a class="btn btn-default page-scroll" href="#contact"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Merchants</h1>
+                    <a class="btn btn-default page-scroll" href="#contacttwo"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacttwo" class="contacttwo-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>More Info</h1>
+                    <a class="btn btn-default page-scroll" href="#intro"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Scrolling Nav JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/scrolling-nav.js"></script>
+
+</body>
+
+</html>
+
+
+<!-- <p><strong>Usage Instructions:</strong> Make sure to include the <code>scrolling-nav.js</code>, <code>jquery.easing.min.js</code>, and <code>scrolling-nav.css</code> files. To make a link smooth scroll to another section on the page, give the link the <code>.page-scroll</code> class and set the link target to a corresponding ID on the page.</p>
+ -->
