@@ -7,6 +7,7 @@
 body {
     width: 100%;
     height: 100%;
+
 }
 
 html {
@@ -38,7 +39,7 @@ of those sections to manage the look and feel of the site. */
   border-radius: 50%;
   animation: pulsate infinite 2.5s;
   position: relative;
-  top: 12em;
+  /*top: 18em;*/
   margin: 0;
   padding: 0;
   z-index: 1;
@@ -53,12 +54,19 @@ of those sections to manage the look and feel of the site. */
     font-family: 'Poppins', sans-serif;
 }
 
+.btn {
+  margin-bottom: 2px;
+}
+
 .logo {
     width: 4em;
     height: 4em;
 
     text-align: center;
-    
+   
+
+/* nav bar begin*/
+
 }
 
 .navbar-brand {
@@ -82,6 +90,8 @@ of those sections to manage the look and feel of the site. */
     border-color: none;
     border: 0px;
 }
+
+/* nav bar end*/
 
 .icon-bar-home span {
     float: right;
@@ -109,6 +119,12 @@ of those sections to manage the look and feel of the site. */
 .intro-section h1 {
     font-size: 8em;
     font-family: 'Shrikhand', cursive;
+    text-decoration: underline;
+}
+
+.intro-section h3, h4 {
+    font-size: 4em;
+    font-family: 'Amatic SC', cursive;
 }
 
 .intro_col-lg-12 {
@@ -129,7 +145,7 @@ of those sections to manage the look and feel of the site. */
     width: 100%;
 }
 .intro-section video {
-    position: relative;
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -138,8 +154,11 @@ of those sections to manage the look and feel of the site. */
     width: auto;
     height: auto;
     z-index: -1;
+    
 
 }
+
+/* about/volunteer/second section of the home page- begin*/
 
 .about-section {
     height: 100%;
@@ -149,7 +168,7 @@ of those sections to manage the look and feel of the site. */
 }
 
 .about-section  {
-    background-image: url("/images/vol_pic.jpg");
+    /*background-image: url("/images/vol_pic.jpg");*/
     width: 100%;
     background-repeat: no-repeat;
 }
@@ -159,6 +178,46 @@ of those sections to manage the look and feel of the site. */
     margin-bottom: 0;
 
 }*/
+
+.present div {
+    margin-bottom: 9em;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    vertical-align:center;
+
+}
+
+.present h5 {
+    font-family: 'Heebo', sans-serif;
+    font-weight: 100px;
+    font-size: 26px;
+}
+
+.present {
+    margin-top: 10em;
+}
+
+.about_col-lg-12 {
+    width: 100%;
+}
+.about_col-lg-12 h1 {
+    margin-top: -75px;
+    font-size: 8em;
+    font-family: 'Shrikhand', cursive;
+}
+
+.present span {
+    background: rgb(186,177,152);
+    display: inline-block;
+    vertical-align:top;
+    min-height: 250px;
+    margin: 0;
+    width: 1px;
+}
+
+
+/* about/volunteer/second section of the home page- end*/
 
 .services-section {
     height: 100%;
