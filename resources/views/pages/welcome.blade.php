@@ -50,8 +50,9 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
+                    <span class="icon-bar-home"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">CP</a>
+                <a class="navbar-brand page-scroll" href="#page-top" style="color:orange">CP</a>
             </div>
 
              <!-- Collect the nav links, forms, and other content for toggling -->
@@ -62,16 +63,19 @@
                         <a class="page-scroll" href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#about">Volunteer</a>
+                        <a class="page-scroll" href="#about" style="color:orange">Volunteers</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#services">Organizations</a>
+                        <a class="page-scroll" href="#services" style="color:orange">Organizations</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#contact">Merchants</a>
+                        <a class="page-scroll" href="#contact" style="color:orange">Merchants</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#contacttwo">More Info</a>
+                        <a class="page-scroll" href="#contacttwo" style="color:orange">More Info</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll-home" href="#" style="color:orange">Home</a>
                     </li>
                 </ul>
             </div>
@@ -88,10 +92,12 @@
                     <h1>Carrot Path</h1>
                     <a class="btn btn-default page-scroll" href="#about"></a>
 <!--                     <img class= "logo" src="node_modules/bootstrap-sass/assets/images/down.png"></img>
- -->                    <video poster="long.jpg" autoplay="true" loop>
+ -->                   <video poster="long.jpg" autoplay="true" loop> 
                         <source src="https://s3.amazonaws.com/distill-videos/videos/processed/34/BetweenTwoTrees-HD.mp4.webm" type="video/webm">
                         <source src="https://s3.amazonaws.com/distill-videos/videos/processed/34/BetweenTwoTrees-HD.mp4-mobile.mp4" type="video/mp4">
-                    </video>
+
+                   </video>
+
                 </div>
             </div>
         </div>
@@ -99,11 +105,13 @@
 
     <!-- About Section -->
     <section id="about" class="about-section">
-        <div class="container">
+        <!-- <img src="/images/vol_pic.jpg" alt="picture"/> -->
+        <div class="about_container">
             <div class="row">
                 <div class="col-lg-12">
                     <h1>Volunteer</h1>
                     <a class="btn btn-default page-scroll" href="#services"></a>
+
                 </div>
             </div>
         </div>
@@ -161,3 +169,7 @@
 
 <!-- <p><strong>Usage Instructions:</strong> Make sure to include the <code>scrolling-nav.js</code>, <code>jquery.easing.min.js</code>, and <code>scrolling-nav.css</code> files. To make a link smooth scroll to another section on the page, give the link the <code>.page-scroll</code> class and set the link target to a corresponding ID on the page.</p>
  -->
+
+ <!-- <img src="{{ URL::to('public/images/vol_pic.jpg')}}" alt="sample picture"/> -->
+                    <!-- <img src="public/images/vol_pic.jpg" alt="picture"/> -->
+                    
