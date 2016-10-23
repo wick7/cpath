@@ -59,7 +59,7 @@ of those sections to manage the look and feel of the site. */
 }
 
 .btn {
-  margin-bottom: 2px;
+  margin-bottom: -1px;
 }
 
 .logo {
@@ -205,10 +205,17 @@ of those sections to manage the look and feel of the site. */
 .about_col-lg-12 {
     width: 100%;
 }
-.about_col-lg-12 h1 {
-    margin-top: -75px;
+.about_container h1 {
+    position: relative;
+    margin-top: 0;
     font-size: 8em;
     font-family: 'Shrikhand', cursive;
+}
+
+.about_col-lg-12 {
+    background-color: ;
+    position: relative;
+    top: -140px;
 }
 
 .present span {

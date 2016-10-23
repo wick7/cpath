@@ -114,6 +114,7 @@
                 <div class="about_col-lg-12">
                     <h1>What We're All About</h1>
                     <h4>We're a platform that connects organizations, voluneteers and local buisnesses to fulfill worthy causes within the community.</h4>
+                    <a class="btn btn-default page-scroll about_btn" href="#services"></a>
                     <div class="present">
                          <div><h5>Volunteers</h5></div>
                          <span style="margin-left: 9em;"></span>
@@ -121,7 +122,6 @@
                          <span style="margin-left: 9em;"></span>
                          <div style="margin-left: 15em;"><h5>Local Businesses</h5></div>
                     </div>
-                    <a class="btn btn-default page-scroll about_btn" href="#services"></a>
                 </div>
             </div>
         </div>
