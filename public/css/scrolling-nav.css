@@ -211,7 +211,7 @@ of those sections to manage the look and feel of the site. */
     background: rgb(186,177,152);
     display: inline-block;
     vertical-align:top;
-    min-height: 250px;
+    min-height: 25em;
     margin: 0;
     width: 1px;
 }
