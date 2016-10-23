@@ -118,7 +118,7 @@
                     <div class="present">
                          <div><h5>Volunteers</h5></div>
                          <span style="margin-left: 9em;"></span>
-                         <div style="margin-left: 15em;"><h5>Organizations</h5></div>
+                         <div style="margin-left: 15em;"><h5>Organizations - CHanges</h5></div>
                          <span style="margin-left: 9em;"></span>
                          <div style="margin-left: 15em;"><h5>Local Businesses</h5></div>
                     </div>
