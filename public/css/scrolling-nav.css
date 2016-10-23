@@ -105,8 +105,6 @@ of those sections to manage the look and feel of the site. */
     float: right;
 }
 
-
-
 .page-scroll a {
     color: white;
 }
@@ -183,23 +181,17 @@ of those sections to manage the look and feel of the site. */
 
 }*/
 
-.present div {
-    margin-bottom: 9em;
-    width: auto;
-    height: auto;
-    display: inline-block;
-    vertical-align:center;
 
-}
 
 .present h5 {
     font-family: 'Heebo', sans-serif;
-    font-weight: px;
-    font-size: 26px;
+    font-weight: 20px;
+    font-size: px;
 }
 
 .present {
-    margin-top: 5em;
+    margin-top: .5em;
+    background-color: ;
 }
 
 .about_col-lg-12 {
@@ -218,13 +210,22 @@ of those sections to manage the look and feel of the site. */
     top: -140px;
 }
 
-.present span {
+.present span { /*---Line between volunteer/org/local Business------ */
     background: rgb(186,177,152);
     display: inline-block;
     vertical-align:top;
     min-height: 25em;
     margin: 0;
     width: 1px;
+}
+
+.present div { /*------ volunteer/org/local Business sections------ */
+    background-color: black;
+    width: auto;
+    height: auto;
+    display: inline-block;
+    vertical-align:center;
+    
 }
 
 
