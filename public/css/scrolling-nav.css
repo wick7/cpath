@@ -163,17 +163,13 @@ of those sections to manage the look and feel of the site. */
 /* about/volunteer/second section of the home page- begin*/
 
 .about-section {
-    height: 100%;
+    height: 1000px;
+    width: 100%;
     padding-top: 150px;
     text-align: center;
     background: #eee;
 }
 
-.about-section  {
-    /*background-image: url("/images/vol_pic.jpg");*/
-    width: 100%;
-    background-repeat: no-repeat;
-}
 
 /*.about-section h1, a {
     position: relative;
@@ -181,22 +177,25 @@ of those sections to manage the look and feel of the site. */
 
 }*/
 
-
+/*-------- begin - THREE SECTIONS VOL/ORG/BUS ---------*/
 
 .present h5 {
     font-family: 'Heebo', sans-serif;
     font-weight: 20px;
-    font-size: px;
+    font-size: 25px;
 }
 
 .present {
-    margin-top: .5em;
+    margin-top: .9em;
+    background-color: ;
+    min-width: 767px;
+    width: 100%;
     background-color: ;
 }
 
-.about_col-lg-12 {
-    width: 100%;
-}
+
+/*-------- end - THREE SECTIONS VOL/ORG/BUS ---------*/
+
 .about_container h1 {
     position: relative;
     margin-top: 0;
@@ -205,9 +204,10 @@ of those sections to manage the look and feel of the site. */
 }
 
 .about_col-lg-12 {
+    width: 100%;
     background-color: ;
     position: relative;
-    top: -140px;
+    top: -50px;
 }
 
 .present span { /*---Line between volunteer/org/local Business------ */
@@ -221,7 +221,7 @@ of those sections to manage the look and feel of the site. */
 
 .present div { /*------ volunteer/org/local Business sections------ */
     background-color: ;
-    width: auto;
+    width: 10em;
     height: auto;
     display: inline-block;
     vertical-align:center;

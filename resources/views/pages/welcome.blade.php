@@ -116,11 +116,35 @@
                     <h4>We're a platform that connects organizations, voluneteers and local buisnesses to fulfill worthy causes within the community.</h4>
                     <a class="btn btn-default page-scroll about_btn" href="#services"></a>
                     <div class="present">
-                         <div><h5>Volunteers</h5></div>
-                         <span style="margin-left: 9em;"></span>
-                         <div style="margin-left: 15em;"><h5>Organizations - CHanges</h5></div>
-                         <span style="margin-left: 9em;"></span>
-                         <div style="margin-left: 15em;"><h5>Local Businesses</h5></div>
+                         <div>
+                             <ul>
+                                <h5>Volunteers</h5>
+                                 <li>Reason 1</li>
+                                 <li>Reason 2</li>
+                                 <li>Reason 3</li>
+                                 <li>Click Here to Learn More</li>
+                             </ul>
+                         </div>
+                         <span style="margin-left: 15em;"></span>
+                         <div style="margin-left: 15em;">       
+                             <ul>
+                                <h5>Organizations</h5>
+                                 <li>Reason 1</li>
+                                 <li>Reason 2</li>
+                                 <li>Reason 3</li>
+                                 <li>Click Here to Learn More</li>
+                             </ul>
+                         </div>
+                         <span style="margin-left: 13em;"></span>
+                         <div class="present_bus" style="margin-left: 15em;">
+                            <ul>
+                                <h5>Businesses</h5>
+                                 <li>Reason 1</li>
+                                 <li>Reason 2</li>
+                                 <li>Reason 3</li>
+                                 <li>Click Here to Learn More</li>
+                             </ul>
+                         </div>
                     </div>
                 </div>
             </div>
