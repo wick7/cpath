@@ -28,10 +28,6 @@ section {
     height: 100%;
 }
 
-/* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
-The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
-of those sections to manage the look and feel of the site. */
-
 
 /*   ------- Begin: Nav Bar -------*/
 
@@ -62,6 +58,35 @@ of those sections to manage the look and feel of the site. */
 }
 
 /*   ------- End: Nav Bar -------*/
+
+/* ------- Begin Scroll Button -----*/
+
+.btn {
+  width: 6em;
+  height: 6em;
+  border: .5em solid #F64005;
+  border-radius: 50%;
+  animation: pulsate infinite 2.5s;
+  position: relative;
+  /*top: 18em;*/
+  margin: 0;
+  padding: 0;
+  z-index: 1;
+  opacity: ;
+}
+
+.btn-default {
+    
+}
+
+
+
+.btn {
+  margin-bottom: -1px;
+}
+
+
+/* ------- End Scroll Button -----*/
 
 /* Begin: First Pannel -- Welcome Section Video BG/Button/Company Name/ */
 
@@ -156,7 +181,7 @@ of those sections to manage the look and feel of the site. */
     width: 1px;
 }
 
-.present div { /*------ volunteer/org/local Business sections------ */
+.present div { /*------ Line between  volunteer/org/local Business sections------ */
     background-color: ;
     width: 10em;
     height: auto;
@@ -185,32 +210,10 @@ of those sections to manage the look and feel of the site. */
 /*   End: Second Pannel --- What We're All About Title/Explaination/ Vol-Org-Bus 3 Sections Ptich*/
 
 
-.btn {
-  width: 6em;
-  height: 6em;
-  border: .5em solid #F64005;
-  border-radius: 50%;
-  animation: pulsate infinite 2.5s;
-  position: relative;
-  /*top: 18em;*/
-  margin: 0;
-  padding: 0;
-  z-index: 1;
-  opacity: ;
-}
 
-.btn-default {
-    
-}
-
-
-
-.btn {
-  margin-bottom: -1px;
-}
 
 .logo {
-    width: 4em;
+    width: 19em;
     height: 4em;
 
     text-align: center;
